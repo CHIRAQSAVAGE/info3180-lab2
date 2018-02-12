@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block css %}
+
+<style>
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 14px 32px;
+    text-align: center;
+    display: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: auto;
+    width: 60%;
+    
+    
+}
+</style>
+{% endblock%}
+
+{% block main %}
+
+<img src="avatar%203.jpg" alt="Avatar" width="300" height="300">
+
+<h1 align="center">Taj Sivers</h1>
+<p align="center">@TajSivers.</p>
+<p align="center">Kingston Jamaica</p>
+<p align="center">Joined February 6 2018</p><br>
+<p align="center">I am a  student of the University of the West Indies, Mona Campus aspiring to become exceptional in web design and programming overall. I enjoy playing football, combat training, and producing music. </p><br>
+<table style="width:100%">
+  <tr>
+    <th>Posts</th>
+    <th>Followers</th> 
+    <th>Following</th>
+  </tr>
+  <tr>
+    <th>5</th>
+    <th>1000</th> 
+    <th>200</th>
+  </tr>
+</table>
+<br>
+
+<button class="button">Follow</button>
+{% endblock %}
